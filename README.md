@@ -138,3 +138,13 @@ Maintenance of the model is crucial over time, considering potential changes in 
 - GitHub performs a static render of the notebooks and it doesn't include the embedded HTML/JavaScript that makes up a plotly graph. In order to see plotly graphs in a rich view of the notebook please paste the link to this GitHub notebook into http://nbviewer.jupyter.org/ 
 
 - [importing_initial_data.ipynb](importing_initial_data.ipynb) and  [identifying_location.ipynb](identifying_location.ipynb) files are introduced to display code used for EDA on initial data downloaded from [NYC Open Data](https://data.cityofnewyork.us/Transportation/Automated-Traffic-Volume-Counts/7ym2-wayt) and identifying final location used in this project
+
+## Further instructions
+
+Please refer to other .md files in this folder for further instructions on 
+- [how to set up virtual environment on local machine with Pipenv](setting_up_python_virtual_environment.md)
+- [on how to manage environment on Docker](setting_up_environment_for_docker.md)
+- [delpoying model to AWS cloud](deployment_to_the_cloud.md)
+
+## Model deployment confirmation
+A screenshot of Model deployment confirmation can be find [in this file](model_deployment_confirmation.md)
