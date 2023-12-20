@@ -125,6 +125,8 @@ However, it is essential to remember that these interpretations are general guid
 Visual comparison of LSTM with LightGBM model
 ![LSTM and LightGBM](https://github.com/footkol/Portfolio/assets/79214748/4ca7c546-0181-463f-acea-0050149acc72)
 
+As a best performer LightGBM model was used for deployment.
+
 ## Next steps
 
 The model has room for improvement, and depending on the available data, enhancements can be achieved by adjusting various hyperparameters such as the number of layers, units, epochs, or learning rate to optimize performance.
