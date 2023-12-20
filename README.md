@@ -131,7 +131,7 @@ As a best performer LightGBM model was used for deployment.
 
 The model has room for improvement, and depending on the available data, enhancements can be achieved by adjusting various hyperparameters such as the number of layers, units, epochs, or learning rate to optimize performance.
 
-Once you are content with your model, deployment for predictions on new or unseen data is possible. Utilizing tools like TensorFlow Serving, PyTorch Serve, or Flask, you can establish a web service or API capable of receiving and responding to requests from clients or applications. Hosting and scaling the model in the cloud can be accomplished through platforms like AWS, Google Cloud, or Azure.
+The best performed model (in our case LighGBM) was deployed using Flask, including creating virtual environment on local machine and also using Docker and providing instructions on deploying the model on AWS Elastic Beanstalk.
 
 Maintenance of the model is crucial over time, considering potential changes in data and the environment. Employing strategies such as retraining, updating, or fine-tuning ensures the model stays current with the latest data and trends. Techniques like anomaly detection, drift detection, or feedback loops can be applied to monitor and identify changes or issues in the model's performance or behavior.
 
