@@ -133,6 +133,8 @@ Once you are content with your model, deployment for predictions on new or unsee
 
 Maintenance of the model is crucial over time, considering potential changes in data and the environment. Employing strategies such as retraining, updating, or fine-tuning ensures the model stays current with the latest data and trends. Techniques like anomaly detection, drift detection, or feedback loops can be applied to monitor and identify changes or issues in the model's performance or behavior.
 
-## Note
+## Notes
 
-GitHub performs a static render of the notebooks and it doesn't include the embedded HTML/JavaScript that makes up a plotly graph. In order to see plotly graphs in a rich view of the notebook please paste the link to this GitHub notebook into http://nbviewer.jupyter.org/ 
+- GitHub performs a static render of the notebooks and it doesn't include the embedded HTML/JavaScript that makes up a plotly graph. In order to see plotly graphs in a rich view of the notebook please paste the link to this GitHub notebook into http://nbviewer.jupyter.org/ 
+
+- [importing_initial_data.ipynb](importing_initial_data.ipynb) and  [identifying_location.ipynb](identifying_location.ipynb) files are introduced to display code used for EDA on initial data downloaded from [NYC Open Data](https://data.cityofnewyork.us/Transportation/Automated-Traffic-Volume-Counts/7ym2-wayt) and identifying final location used in this project
