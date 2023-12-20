@@ -1,0 +1,3 @@
+As a verification of the deployed model, we have included a screenshot of the model prediction response from running [location_test.py](location_test.py).
+
+Screenshot of response in CLI
